@@ -5,7 +5,6 @@
  */
 
 public class FibonacciIterative {
-
     // function to print fibonacci series
     static void Fibonacci(int N){
         // initialize int num1 to 0 and int num2 to 0
