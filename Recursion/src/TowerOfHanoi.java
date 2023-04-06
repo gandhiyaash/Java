@@ -1,5 +1,13 @@
 /**
  *
+ * Create a function towerOfHanoi where pass int N(current number of disk), from_rod, to_rod, aux_rod.
+ * Make a function call for N - 1 the disk
+ * Then print the current the disk along with from_rod and to_rod
+ * Again make function call for N - 1 th disk
+ *
+ * Below is the implementation of the above approach.
+ * Time Complexity : O(2^N), There are two possibilities for every disk. Therefore, 2*2*2*.....*2(N times) is 2^N
+ * Auxiliary Space: O(N), Function call stack space
  */
 
 public class TowerOfHanoi {
