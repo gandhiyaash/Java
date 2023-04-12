@@ -8,7 +8,7 @@
  *      Return statement:
  *      At each recursive call(except the base case), return the recursive function for the previous two value as:
  *      recursive_function(N – 1) + recursive_function(N – 2);
- *      Below is the implementation of the above approach:
+ *      Below is the implementation of the above approach
  */
 
 public class Fibonacci {
